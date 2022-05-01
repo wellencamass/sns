@@ -4,12 +4,12 @@ IIS shortname scanner written in Go
 ## Installation
 Make sure you've a recent version of the Go compiler installed on your system. Then just run:
 ```
-GO111MODULE=on go get -u github.com/sw33tLie/sns
+GO111MODULE=on go install github.com/sw33tLie/sns@latest
 ```
 If you are on Windows:
 ```
 set GO111MODULE=on
-go get -u github.com/sw33tLie/sns
+go install github.com/sw33tLie/sns@latest
 ```
 
 ## Usage
